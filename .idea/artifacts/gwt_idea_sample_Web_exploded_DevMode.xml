@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="gwt-idea-sample:Web exploded DevMode">
+    <output-path>$PROJECT_DIR$/out/artifacts/gwt_idea_sample_Web_exploded_DevMode</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="gwt-idea-sample" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/com/google/gwt/gwt-servlet/2.9.0/gwt-servlet-2.9.0.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="gwt-idea-sample/web/Web" />
+    </root>
+  </artifact>
+</component>
