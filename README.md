@@ -19,12 +19,12 @@ IntelliJ create automatically following Run Configurations:
 ## Steps to Debug
 1. Launch `MySampleApplication NoServer with Tomcat 9.0.38 DevMode`
 2. A Browser will open Url: `http://127.0.0.1:8080/MySampleApplication.html` But this will not work because the artifatc deployed to Path
-![Deploy Path](Configurations_Deloy.png?raw=true)
+![Deploy Path](Configurations_Deploy.png?raw=true)
 2. Open Url `http://localhost:8080/gwt_idea_sample_Web_exploded_DevMode/MySampleApplication.html`
 The the application should compile on the fly.
 
 As Alternative you can change the Application Contect od Dev Mode Tomcat Launcher to `/`
 I've create the configuration: _MySampleApplication NoServer with Tomcat 9.0.38 DevMode (ROOT)_
-![Deploy Path](Configurations_Deloy_ROOT.png.png?raw=true)
+![Deploy Path](Configurations_Deploy_ROOT.png?raw=true)
 
 see: http://www.gwtproject.org/doc/latest/DevGuideCompilingAndDebugging.html#DevGuideCompilerOptions
